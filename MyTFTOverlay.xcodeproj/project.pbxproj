@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A32FB0352D79AB4600465F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32FB01B2D79AB4500465F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32FB0222D79AB4500465F0B;
+			remoteInfo = MyTFTOverlay;
+		};
+		A32FB03F2D79AB4600465F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32FB01B2D79AB4500465F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32FB0222D79AB4500465F0B;
+			remoteInfo = MyTFTOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32FB0232D79AB4500465F0B /* MyTFTOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTFTOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32FB0342D79AB4600465F0B /* MyTFTOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTFTOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32FB03E2D79AB4600465F0B /* MyTFTOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTFTOverlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A32FB0252D79AB4500465F0B /* MyTFTOverlay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTFTOverlay;
+			sourceTree = "<group>";
+		};
+		A32FB0372D79AB4600465F0B /* MyTFTOverlayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTFTOverlayTests;
+			sourceTree = "<group>";
+		};
+		A32FB0412D79AB4600465F0B /* MyTFTOverlayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyTFTOverlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32FB0202D79AB4500465F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB0312D79AB4600465F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB03B2D79AB4600465F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32FB01A2D79AB4500465F0B = {
+			isa = PBXGroup;
+			children = (
+				A32FB0252D79AB4500465F0B /* MyTFTOverlay */,
+				A32FB0372D79AB4600465F0B /* MyTFTOverlayTests */,
+				A32FB0412D79AB4600465F0B /* MyTFTOverlayUITests */,
+				A32FB0242D79AB4500465F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32FB0242D79AB4500465F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32FB0232D79AB4500465F0B /* MyTFTOverlay.app */,
+				A32FB0342D79AB4600465F0B /* MyTFTOverlayTests.xctest */,
+				A32FB03E2D79AB4600465F0B /* MyTFTOverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32FB0222D79AB4500465F0B /* MyTFTOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32FB0482D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlay" */;
+			buildPhases = (
+				A32FB01F2D79AB4500465F0B /* Sources */,
+				A32FB0202D79AB4500465F0B /* Frameworks */,
+				A32FB0212D79AB4500465F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A32FB0252D79AB4500465F0B /* MyTFTOverlay */,
+			);
+			name = MyTFTOverlay;
+			packageProductDependencies = (
+			);
+			productName = MyTFTOverlay;
+			productReference = A32FB0232D79AB4500465F0B /* MyTFTOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32FB0332D79AB4600465F0B /* MyTFTOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32FB04B2D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlayTests" */;
+			buildPhases = (
+				A32FB0302D79AB4600465F0B /* Sources */,
+				A32FB0312D79AB4600465F0B /* Frameworks */,
+				A32FB0322D79AB4600465F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32FB0362D79AB4600465F0B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A32FB0372D79AB4600465F0B /* MyTFTOverlayTests */,
+			);
+			name = MyTFTOverlayTests;
+			packageProductDependencies = (
+			);
+			productName = MyTFTOverlayTests;
+			productReference = A32FB0342D79AB4600465F0B /* MyTFTOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32FB03D2D79AB4600465F0B /* MyTFTOverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32FB04E2D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlayUITests" */;
+			buildPhases = (
+				A32FB03A2D79AB4600465F0B /* Sources */,
+				A32FB03B2D79AB4600465F0B /* Frameworks */,
+				A32FB03C2D79AB4600465F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32FB0402D79AB4600465F0B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A32FB0412D79AB4600465F0B /* MyTFTOverlayUITests */,
+			);
+			name = MyTFTOverlayUITests;
+			packageProductDependencies = (
+			);
+			productName = MyTFTOverlayUITests;
+			productReference = A32FB03E2D79AB4600465F0B /* MyTFTOverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32FB01B2D79AB4500465F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A32FB0222D79AB4500465F0B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A32FB0332D79AB4600465F0B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A32FB0222D79AB4500465F0B;
+					};
+					A32FB03D2D79AB4600465F0B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A32FB0222D79AB4500465F0B;
+					};
+				};
+			};
+			buildConfigurationList = A32FB01E2D79AB4500465F0B /* Build configuration list for PBXProject "MyTFTOverlay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32FB01A2D79AB4500465F0B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A32FB0242D79AB4500465F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32FB0222D79AB4500465F0B /* MyTFTOverlay */,
+				A32FB0332D79AB4600465F0B /* MyTFTOverlayTests */,
+				A32FB03D2D79AB4600465F0B /* MyTFTOverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32FB0212D79AB4500465F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB0322D79AB4600465F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB03C2D79AB4600465F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32FB01F2D79AB4500465F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB0302D79AB4600465F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32FB03A2D79AB4600465F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32FB0362D79AB4600465F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32FB0222D79AB4500465F0B /* MyTFTOverlay */;
+			targetProxy = A32FB0352D79AB4600465F0B /* PBXContainerItemProxy */;
+		};
+		A32FB0402D79AB4600465F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32FB0222D79AB4500465F0B /* MyTFTOverlay */;
+			targetProxy = A32FB03F2D79AB4600465F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A32FB0462D79AB4600465F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32FB0472D79AB4600465F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A32FB0492D79AB4600465F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyTFTOverlay/MyTFTOverlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTFTOverlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A32FB04A2D79AB4600465F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyTFTOverlay/MyTFTOverlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTFTOverlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A32FB04C2D79AB4600465F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTFTOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTFTOverlay";
+			};
+			name = Debug;
+		};
+		A32FB04D2D79AB4600465F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTFTOverlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTFTOverlay";
+			};
+			name = Release;
+		};
+		A32FB04F2D79AB4600465F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyTFTOverlay;
+			};
+			name = Debug;
+		};
+		A32FB0502D79AB4600465F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ince01.MyTFTOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MyTFTOverlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32FB01E2D79AB4500465F0B /* Build configuration list for PBXProject "MyTFTOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32FB0462D79AB4600465F0B /* Debug */,
+				A32FB0472D79AB4600465F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32FB0482D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32FB0492D79AB4600465F0B /* Debug */,
+				A32FB04A2D79AB4600465F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32FB04B2D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32FB04C2D79AB4600465F0B /* Debug */,
+				A32FB04D2D79AB4600465F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32FB04E2D79AB4600465F0B /* Build configuration list for PBXNativeTarget "MyTFTOverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32FB04F2D79AB4600465F0B /* Debug */,
+				A32FB0502D79AB4600465F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32FB01B2D79AB4500465F0B /* Project object */;
+}
